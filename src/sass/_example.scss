@@ -1,0 +1,131 @@
+.example {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #424242;
+  max-width: 960px;
+  padding: 16px;
+}
+
+.example code {
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #009688;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+
+.example .background {
+  height: 240px;
+  // Путь к изображениям из SASS-файла всегда такой, как из папки css
+  background-image: url('../images/demo.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.main {
+  background: url(../images/decor.png), #e5e5e520;
+  background-repeat: no-repeat;
+  background-position: center 7px;
+}
+
+.container {
+  width: 1280px;
+}
+
+.title {
+  position: relative;
+  display: flex;
+  font-family: Cera-Pro, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #487996;
+  color: #fff;
+}
+
+// .title-in {
+//   position: absolute;
+//   font-family: Cera Pro, sans-serif;
+//   font-style: normal;
+//   font-weight: bold;
+//   font-size: 16px;
+//   line-height: 34px;
+//   text-align: center;
+//   top: 50%;
+//   left: 1px;
+//   transform: translateY(-50%);
+//   color: red;
+// }
+
+.list {
+  list-style: none;
+  padding: 20px;
+  width: 1062px;
+  display: grid;
+  grid-template-columns: repeat(531, 2px);
+  grid-template-rows: 260px 214px 203px 260px;
+  grid-row-gap: 32px;
+}
+
+.item-1 {
+  grid-column: 1/204;
+}
+
+.item-2 {
+  grid-column: 220/409;
+}
+
+.item-3 {
+  grid-column: 425/532;
+}
+
+.item-4 {
+  grid-column: 1/108;
+}
+
+.item-5 {
+  grid-column: 124/313;
+}
+
+.item-6 {
+  grid-column: 329/532;
+}
+
+.item-7 {
+  grid-column: 1/204;
+}
+
+.item-8 {
+  grid-column: 220/423;
+}
+
+.item-9 {
+  grid-column: 439/532;
+}
+
+.item-10 {
+  grid-column: 1/108;
+}
+
+.item-11 {
+  grid-column: 124/313;
+}
+
+.item-12 {
+  grid-column: 329/532;
+}
+
+img {
+  display: block;
+  // display: none;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
